@@ -1,0 +1,50 @@
+.first-nav-border {
+  border-bottom: 1px solid lightgrey;
+}
+
+.just-for-link {
+  font-size: 0.9rem;
+}
+
+.just-for-link:nth-of-type(n+2) {
+  font-weight: 700;
+}
+
+.just-for-link .nav-link {
+  padding: 0.5rem 0.5rem;
+}
+
+.second-nav-border {
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+
+a.nav-link.left-nav-link {
+  font-size: 1.15rem;
+  color: black;
+  font-weight: 600;
+  padding: 1rem 1rem;
+}
+
+a.nav-link.right-nav-link {
+  padding: 1.6rem 2.75rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+nav.navbar {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+p.nav-link {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
