@@ -2,6 +2,15 @@
   border-bottom: 1px solid lightgrey;
 }
 
+.img-headline {
+  font-size: 2.6rem;
+  letter-spacing: 0.15rem;
+}
+
+.img-sub-headline {
+  font-size: 1.2rem;
+}
+
 .just-for-link {
   font-size: 0.9rem;
 }
@@ -12,6 +21,28 @@
 
 .just-for-link .nav-link {
   padding: 0.5rem 0.5rem;
+}
+
+.main-img-copy {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.main-img-left {
+  height: 375px;
+  width: 600px;
+  background-color: darkblue;
+  color: white;
+}
+
+.main-img-right {
+  height: 375px;
+  width: 600px;
+  background-color: lightblue;
+  color: white;
 }
 
 .second-nav-border {
