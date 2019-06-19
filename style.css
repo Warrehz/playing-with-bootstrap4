@@ -50,6 +50,14 @@
   border-right: 1px solid lightgray;
 }
 
+.q-link-icon, .q-link-text {
+  color: #185C9A;
+}
+
+.q-link-text {
+  border-bottom: 1px solid lightgray;
+}
+
 a.nav-link.left-nav-link {
   font-size: 1.15rem;
   color: black;
