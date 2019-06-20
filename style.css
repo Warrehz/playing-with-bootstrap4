@@ -1,3 +1,8 @@
+.body-copy {
+  font-size: 1.15rem;
+  line-height: 1.8rem;
+}
+
 .first-nav-border {
   border-bottom: 1px solid lightgrey;
 }
@@ -56,6 +61,17 @@
 
 .q-link-text {
   border-bottom: 1px solid lightgray;
+}
+
+.tx-img-placeholder {
+  height: 100%;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.tx-q-link {
+  font-weight: 700;
+  text-decoration: none !important;
 }
 
 a.nav-link.left-nav-link {
