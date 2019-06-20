@@ -121,6 +121,10 @@ p.nav-link {
     color: white;
   }
 
+  .mt-6 {
+    margin-top: 4rem;
+  }
+
   .q-link-holder {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -136,8 +140,55 @@ p.nav-link {
     font-size: 1.1rem;
   }
 
+  .quote-icon {
+    color: #185C9A;
+    display: block !important;
+    text-align: center !important;
+  }
+
+  .quote-ref {
+    text-align: center;
+    color: #003767;
+    font-weight: 400;
+    font-size: 1.1rem;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .quote-text {
+    font-style: italic;
+    color: #003767;
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+
+  .read-story {
+    text-align: center;
+    color: #0063B8;
+    font-weight: 700;
+    padding-bottom: 3rem;
+  }
+
+  .story-area {
+    background-color: #F4F8FB;
+  }
+
+  .story-copy {
+    color: #003767;
+  }
+
+  .story-headline {
+    color: #003767;
+    font-weight: 700;
+    margin-bottom: 0rem;
+  }
+
   .section-header {
     font-size: 1.45rem;
+  }
+
+  .temp-footer {
+    height: 500px;
+    width: 100%;
   }
 
   .tx-q-link {
