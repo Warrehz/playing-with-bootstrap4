@@ -82,6 +82,10 @@ p.nav-link {
 
 @media (min-width: 320px) {
 
+  .body-copy {
+    font-size: 1rem;
+  }
+
   .img-headline {
     font-size: 2rem;
   }
@@ -130,6 +134,10 @@ p.nav-link {
 
   .q-link-text {
     font-size: 1.1rem;
+  }
+
+  .section-header {
+    font-size: 1.45rem;
   }
 
   .tx-q-link {
