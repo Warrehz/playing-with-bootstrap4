@@ -3,8 +3,24 @@
   line-height: 1.8rem;
 }
 
+
 .first-nav-border {
   border-bottom: 1px solid lightgrey;
+}
+
+.history {
+  margin-top: 5rem;
+}
+
+.honored-top {
+  font-style: italic;
+  color: #575a5d;
+  margin-bottom: -4.5rem;
+}
+
+.honored-bottom {
+  font-style: italic;
+  color: #575a5d;
 }
 
 .img-headline {
@@ -55,6 +71,19 @@
 .tx-q-link {
   font-weight: 700;
   text-decoration: none !important;
+}
+
+.year {
+  font-size: 12.5rem;
+  color: #003767;
+  font-weight: 700;
+}
+
+.year-text {
+  font-size: 1.8rem;
+  color: #003767;
+  font-weight: 700;
+  margin-top: -3.75rem;
 }
 
 a.nav-link.left-nav-link {
