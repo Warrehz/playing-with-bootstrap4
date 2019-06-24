@@ -1,8 +1,24 @@
+.brands {
+  display: flex;
+  align-content: flex-start;
+  flex-flow: row wrap;
+}
+
+.brand-holder {
+  width: 32%;
+  height: 33%;
+  background-color: grey;
+}
+
+.brand-img {
+  max-width: auto;
+  max-height: 100%;
+}
+
 .body-copy {
   font-size: 1.15rem;
   line-height: 1.8rem;
 }
-
 
 .first-nav-border {
   border-bottom: 1px solid lightgrey;
