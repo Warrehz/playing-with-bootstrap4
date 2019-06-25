@@ -283,10 +283,6 @@ p.nav-link {
     display: none;
   }
 
-  .started-headline {
-    text-align: center;
-  }
-
   .story-area {
     background-color: #F4F8FB;
   }
@@ -329,6 +325,11 @@ p.nav-link {
   .brand-holder {
     width: 32%;
     height: 32%;
+  }
+
+  .started-copy {
+    display: inline-block;
+    font-size: 1.18rem;
   }
 
   div.brand-holder:last-of-type {
