@@ -8,6 +8,8 @@
   width: 32%;
   height: 33%;
   background-color: grey;
+  background-image:url("https://via.placeholder.com/300x200");
+  background-size: contain;
 }
 
 .brand-img {
@@ -20,12 +22,27 @@
   line-height: 1.8rem;
 }
 
+.btn {
+  line-height: 2.8rem;
+  border-radius: .15rem;
+}
+
+.btn-primary {
+  background-color: #e36f1e;
+  border-color: #e36f1e;
+}
+
 .first-nav-border {
   border-bottom: 1px solid lightgrey;
 }
 
+.form-control {
+  height: 3.5rem;
+  border-radius: .15rem;
+}
+
 .history {
-  margin-top: 5rem;
+  padding-top: 5rem;
 }
 
 .honored-top {
@@ -76,6 +93,10 @@
 .q-link-icon, .q-link-text {
   color: #185C9A;
   font-weight: 600;
+}
+
+.started-area {
+  background-color: #F4F8FB;
 }
 
 .tx-img-placeholder {
@@ -131,6 +152,39 @@ p.nav-link {
     font-size: 1rem;
   }
 
+  .brands {
+    margin-top: 4rem;
+  }
+
+  .brand-holder {
+    width: 50%;
+    height: 8rem;
+  }
+
+  .form {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .form-area {
+    width: 95%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .form-copy {
+    font-size: 1.4rem;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .form-control-lg {
+    border-radius: 0 !important;
+  }
+
   .img-headline {
     font-size: 2rem;
   }
@@ -168,6 +222,18 @@ p.nav-link {
 
   .mt-6 {
     margin-top: 4rem;
+  }
+
+  .pt-6 {
+    padding-top: 4rem;
+  }
+
+  .pt-7 {
+    padding-top: 5rem;
+  }
+
+  .pt-8 {
+    padding-top: 6rem;
   }
 
   .q-link-holder {
@@ -213,6 +279,14 @@ p.nav-link {
     padding-bottom: 3rem;
   }
 
+  .started-copy {
+    display: none;
+  }
+
+  .started-headline {
+    text-align: center;
+  }
+
   .story-area {
     background-color: #F4F8FB;
   }
@@ -240,10 +314,26 @@ p.nav-link {
     font-size: 1.1rem;
   }
 
+  div.brand-holder:last-of-type {
+    display: none;
+  }
+
 }
 
 @media (min-width: 576px) {
 
+  .brands {
+    margin-top: 0;
+  }
+
+  .brand-holder {
+    width: 32%;
+    height: 32%;
+  }
+
+  div.brand-holder:last-of-type {
+    display: block;
+  }
 
 }
 
