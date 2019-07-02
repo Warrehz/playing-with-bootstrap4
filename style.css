@@ -1,3 +1,9 @@
+.bot-qlink-area {
+  background-color: #E5EFF8;
+  display: flex;
+  justify-content: space-around;
+}
+
 .brands {
   display: flex;
   align-content: flex-start;
@@ -34,6 +40,16 @@
 
 .first-nav-border {
   border-bottom: 1px solid lightgrey;
+}
+
+.f-links {
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+
+.f-link-head {
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 
 .form-control {
@@ -249,6 +265,7 @@ p.nav-link {
 
   .q-link-text {
     font-size: 1.1rem;
+    padding-top: 0;
   }
 
   .quote-icon {
@@ -301,9 +318,8 @@ p.nav-link {
     font-size: 1.45rem;
   }
 
-  .temp-footer {
-    height: 500px;
-    width: 100%;
+  .footer {
+    background-color: #003767;
   }
 
   .tx-q-link {
