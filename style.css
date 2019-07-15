@@ -38,6 +38,11 @@
   border-color: #e36f1e;
 }
 
+.btn-secondary {
+  background-color: #0063B8;
+  border: none;
+}
+
 .first-nav-border {
   border-bottom: 1px solid lightgrey;
 }
@@ -55,6 +60,34 @@
 .form-control {
   height: 3.5rem;
   border-radius: .15rem;
+}
+
+.f-border-top {
+  border-top: 1px solid #FFFFFF;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.f-form {
+  width: 70%;
+  display: inline-block;
+  float: left;
+}
+
+.f-icon {
+  margin-right: 0.75rem;
+}
+
+.f-sentence {
+  color: #FFFFFF;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.f-social-icons {
+  width: 75%;
+  margin: 0 auto;
 }
 
 .history {
@@ -223,14 +256,14 @@ p.nav-link {
   }
 
   .main-img-left {
-    height: 45vh;
+    height: 40vh;
     width: 100%;
     background-color: darkblue;
     color: white;
   }
 
   .main-img-right {
-    height: 45vh;
+    height: 40vh;
     width: 100%;
     background-color: lightblue;
     color: white;
@@ -356,6 +389,10 @@ p.nav-link {
 
 @media (min-width: 768px) {
 
+  .body-copy {
+    font-size: 1.19rem;
+  }
+
   .fas {
     display: block !important;
   }
@@ -363,6 +400,15 @@ p.nav-link {
   .q-link-icon, .q-link-text {
     display: block;
     text-align: center;
+  }
+
+  .section-header {
+    font-size: 1.8rem;
+    width: 87%;
+  }
+
+  .tx-q-link {
+    font-size: 1.04rem;
   }
 
 }
@@ -375,6 +421,6 @@ p.nav-link {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1440px;
   }
 }
